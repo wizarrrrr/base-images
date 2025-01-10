@@ -1,31 +1,4 @@
 {
-  "sources": [
-    {
-      "name": "imagemagick",
-      "version": "7.1.1-40",
-      "revision": "ed93f7fe0313ae51b10517f6f980127dccd907d5"
-    },
-    {
-      "name": "libheif",
-      "version": "1.19.3",
-      "revision": "65b0e04ee7e3abebcc55bf2f77d7083823c2d07a"
-    },
-    {
-      "name": "libjxl",
-      "version": "0.11.0",
-      "revision": "4df1e9eccdf86b8df4c0c7c08f529263906f9c4f"
-    },
-    {
-      "name": "libraw",
-      "version": "0.21.3",
-      "revision": "261c18ca0f1f9b83a53947b77751050d90d18e67"
-    },
-    {
-      "name": "libvips",
-      "version": "8.15.3",
-      "revision": "1a86d4e153536e035d1907652391a26f77cbe1b8"
-    }
-  ],
   "packages": [
     {
       "name": "ffmpeg",
