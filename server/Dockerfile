@@ -14,7 +14,7 @@ FROM node:22.12.0-bookworm-slim@sha256:35531c52ce27b6575d69755c73e65d4468dba93a2
 
 WORKDIR /usr/src
 
-COPY bin/configure-apt.sh
+COPY bin/configure-apt.sh ./
 
 RUN apt-get update && \
     apt-get install curl ca-certificates --no-install-recommends -yqq && \
