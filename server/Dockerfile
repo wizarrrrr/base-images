@@ -8,7 +8,7 @@ RUN ./configure-apt.sh && \
     apt-get update && \
     apt-get install --no-install-recommends -yqq \
     jq \
-    wget
+    wget \
     nginx \
     nmap \
     toilet \
@@ -28,7 +28,7 @@ RUN ./configure-apt.sh && \
     apt-get update && \
     apt-get install --no-install-recommends -yqq \
     jq \
-    wget
+    wget \
     nginx \
     nmap \
     toilet \
